@@ -1,0 +1,44 @@
+---
+title: SharePoint Framework vTODO: {version-release} release notes
+description: Release notes for the SharePoint Framework vTODO: {version-release} release
+ms.date: TODO:
+ms.prod: sharepoint
+ms.localizationpriority: high
+---
+# SharePoint Framework vTODO: {version-release} release notes
+
+TODO:
+
+**Released:** TODO: {release-date}
+
+[!INCLUDE [spfx-release-notes-common](../../includes/snippets/spfx-release-notes-common.md)]
+
+## Upgrading projects from vTODO: {version-previous} to vTODO: {version-release}
+
+In the project's **package.json** file, identify all SPFx vTODO: {version-previous} packages. For each SPFx package:
+
+1. Uninstall the existing vTODO: {version-previous} package:
+
+    ```console
+    npm uninstall @microsoft/{spfx-package-name}@TODO: {version-previous}
+    ```
+
+1. Install the refreshed vTODO: {version-release} package:
+
+    ```console
+    npm install @microsoft/{spfx-package-name}@TODO: {version-release}.0 --save --save-exact
+    ```
+
+[!INCLUDE [spfx-release-upgrade-tip](../../includes/snippets/spfx-release-upgrade-tip.md)]
+
+## New features and capabilities
+
+TODO:
+
+## Changes in this release
+
+TODO:
+
+## Deprecations and removed items in this release
+
+TODO:
